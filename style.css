@@ -126,3 +126,24 @@ hr{
     width: 600px;
 }
 
+.abouts{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 60px;
+}
+.about{
+    border: 2px solid #ddd;
+    text-align: center;
+    padding: 10px;
+}
+
+.about:hover{
+    color: #fff;
+    background-color: #000;
+    opacity: .7;
+    transition: background-color 2s;
+}
+.about_icon{
+    font-size: 30px;
+}
+
