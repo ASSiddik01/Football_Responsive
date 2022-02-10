@@ -1,0 +1,61 @@
+body{
+    margin: auto;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 120px;
+    padding: 80px;
+}
+
+.banner_right img {
+    width: 550px;
+    height: 450px;
+}
+
+.banner_title {
+    font-size: 70px;
+    color: #fff;
+}
+
+.anchor_button {
+    text-decoration: none;
+    background-color: #e02c6d;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header {
+    background-color: #2d25a0;
+}
+
+.container{
+    margin: 100px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+
+
+.player{
+    width: 330px;
+    height: 450px;
+    box-shadow: 0px 0px 40px #ddd;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.player_img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.player_title{
+    font-size: 30px;
+}
